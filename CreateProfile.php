@@ -4,6 +4,7 @@ include 'dbinfo.php';
 
 <?php
 session_start(); 
+// hello this is a comment
 $link = mysqli_connect($host,$user,$pass) or die( "Unable to connect");
 mysqli_select_db($link, $database) or die( "Unable to select database");
 
